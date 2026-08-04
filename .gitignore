@@ -5,7 +5,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# ==========================================
 # Virtual Environment
+# ==========================================
 .venv/
 venv/
 env/
@@ -47,13 +49,21 @@ dist/
 # Environment Variables
 # ==========================================
 .env
+.env.*
 
 # ==========================================
-# Raw Dataset (Optional)
-# Uncomment ONLY if datasets become too large
-#
-# datasets/raw/
-#
-# For Olist, I recommend keeping this commented
-# initially because the dataset is small enough.
+# Pytest / Coverage
 # ==========================================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# Raw Dataset
+# ==========================================
+datasets/raw/
+
+# ==========================================
+# DBeaver
+# ==========================================
+.metadata/
