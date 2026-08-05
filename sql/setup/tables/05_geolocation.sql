@@ -8,7 +8,7 @@ Dataset    : Olist Brazilian E-Commerce
 ============================================================
 */
 
-CREATE TABLE geolocations (
+CREATE TABLE geolocation (
     geolocation_zip_code_prefix INTEGER,
     geolocation_lat NUMERIC(10,8),
     geolocation_lng NUMERIC(11,8),
